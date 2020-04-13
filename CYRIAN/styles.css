@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+h1{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    float:left;
+    background-repeat:no-repeat;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+}
+th,td,tr{
+    padding: 10px;
+}
+th{
+    background-color: #a70000;
+    color: black;
+}
+tr :nth-child(odd)
+{
+  background-color: white;
+}
