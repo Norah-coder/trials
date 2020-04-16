@@ -1,0 +1,109 @@
+*{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    background-color: rgb(177, 10, 163);
+    padding: 10px;
+}
+#wrapper1{
+    border: 10px solid rgb(177, 10, 163);
+}
+#image1{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+#profile1{
+    text-align: justify;
+    color:rgb(177, 10, 163);
+}
+#wrapper2{
+    border: 10px solid rgb(177, 10, 163) ;
+}
+#image2{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: auto;
+}
+#profile2{
+    text-align: justify;
+    color:rgb(177, 10, 163);
+}
+
+#wrapper3{
+    border: 10px solid rgb(177, 10, 163) ;
+}
+#image3{
+    float: left
+    border: 1px solid rgb(177,10,163);
+    border-radius: 4px;
+    padding: 5px;
+    width: 140px;
+    height: auto;
+}
+#profile3{
+    text-align: justify;
+    color:rgb(177, 10, 163);
+}
+#wrapper4{
+    border: 10px solid rgb(177, 10, 163);
+}
+#image4{
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 140px;
+    height: auto;
+}
+#profile4{
+    text-align: justify;
+    color:rgb(177, 10, 163);
+}
+#content{
+    display: inline-block;
+}
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+.header h1 {
+    font-size: 50px;
+  }
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: 50px 75px 100px#ddd;
+    color: lime;
+  }
+.topnav > #appointment {
+    margin-left: 40%;
+  }
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(177,10,163);
+    margin-top: 10px;
+  }

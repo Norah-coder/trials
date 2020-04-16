@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #F1F1F1;
+  }
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+.header h1 {
+    font-size: 50px;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+.topnav a {
+    float: left;
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+.topnav a:hover {
+    background-color: 50px 75px 100px#ddd;
+    color: lime;
+  }
+.topnav > #appointment {
+    margin-left: 40%;
+  } 
+h2 {
+    color: rgb(177, 10, 163);
+    font-family: system-ui;
+    text-align:center;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+#wrapper1{
+  border: 10px solid rgb(177, 10, 163);
+  margin: 10px;
+}
+#image1{
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+#profile1{
+  text-align: justify;
+  color:rgb(177, 10, 163);
+  clear: none;
+}
+#wrapper2{
+  border: 10px solid rgb(177, 10, 163) ;
+  margin: 10px;
+}
+#image2{
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: auto;
+}
+#profile2{
+  text-align: justify;
+  color:rgb(177, 10, 163);
+  clear: none;
+}
+#wrapper3{
+  border: 10px solid rgb(177, 10, 163) ;
+  margin: 10px;
+}
+#image3{
+  float: left;
+  border: 1px solid rgb(177,10,163);
+  border-radius: 4px;
+  padding: 5px;
+  width: 140px;
+  height: auto;
+}
+#profile3{
+  text-align: justify;
+  color:rgb(177, 10, 163);
+  clear: none;
+}
+#wrapper4{
+  border: 10px solid rgb(177, 10, 163);
+  margin: 10px;
+}
+#image4{
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 140px;
+  height: auto;
+}
+#profile4{
+  text-align: justify;
+  color:rgb(177, 10, 163);
+  clear: none;
+}
+#content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rosybrown;
+  margin-top: 10px;
+}  
